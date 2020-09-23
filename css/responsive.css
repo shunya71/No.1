@@ -1,0 +1,177 @@
+/* responsive */
+
+@media screen and (min-width: 768px) {
+
+  body {
+    margin: 0 auto;
+  }
+
+  .sp_img {
+    display: none;
+  }
+  .image_box {
+    display: flex;
+  }
+
+  .sp_only {
+    display: none;
+  }
+
+  .head_list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #nav-open {
+    display: none;
+  }
+
+  .logo {
+    font-size: 35px;
+    margin-left: 50px;
+  }
+
+  .four_box {
+    display: flex;
+  }
+  
+  .four_imgbox {
+    width: 100%;
+  }
+
+  .four_item {
+    width: 50%;
+  }
+
+  .four_section {
+    height: 1150px;
+    padding: 30px 0; 
+  }
+
+  .attraction {
+    height: 500px;
+  }
+
+  .a_wrap {
+    top: 80px; 
+    right: 0;
+    left: 0;
+  }
+
+  .a_text {
+    margin: 30px 10% 0px 15%;
+  }
+   
+  .a_text_foot {
+    margin: 60px 5%;
+  }
+
+
+  .tour_inner img {
+    width: 40%;
+  } 
+
+  .tour_text p {
+    font-size: 32px;
+  }
+
+  .tour_right {
+    margin: 15% 0;
+  }
+
+  .tour_btn {
+    margin: 0 auto 50px;
+  }
+
+  .pc_img {
+    height: 500px;
+    width: 100%;
+  }
+
+  .ibox {
+    width: 33.3333333%;
+    margin-bottom: 30px;
+  }
+
+  .t_text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .pc_img {
+    display: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .menu_item {
+    color: rgb(22, 41, 104);
+    font-size: 25px;
+    font-weight: normal;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 32px;
+    margin-top: -30px;
+  }
+
+  .four_box img {
+    height: 500px;
+    text-align: center;
+    width: 300px;
+  }
+
+  
+}
+
+/* iphone plas */
+@media screen and (max-width: 499px) {
+  .four_box {
+    margin: 0 13%;
+  }
+}
+
+/* iphone 6/7/8, .iphoneX */
+@media screen and (max-width: 399px) {
+  .four_box {
+    margin: 0 10%;
+  }
+}
+
+/* iphone se/5 */
+@media screen and (max-width: 320px) {
+  .four_box {
+    margin: 0 3%;
+  }
+
+  .contact_btn {
+    padding: 10px 20px;
+    margin: 20px auto 30px;
+  }
+
+  .attraction {
+    height: 800px;
+  }
+
+  .tour_apoint {
+    margin-top: 60px;
+    padding-right: 10px;
+    height: 150px;
+  }
+}
